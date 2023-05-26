@@ -1,0 +1,12 @@
+#body-tesicongresuali {
+    padding: 50px 200px;
+    min-width: 400px;
+}
+
+@media (max-width: 756px) {
+    #body-tesicongresuali {
+        padding: 50px 20px;
+    }
+    
+   
+  }
