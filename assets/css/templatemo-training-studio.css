@@ -482,15 +482,7 @@ header
 }
 
 
-@media (max-width: 1200px) {
-  .header-area .main-nav .nav li {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-  .header-area .main-nav:before {
-    display: none;
-  }
-}
+
 
 @media (max-width: 767px) {
   .header-area .main-nav .logo {
@@ -616,7 +608,9 @@ header
     flex-direction: column;
     }
   
+  
 }
+
 
 
 /* 
@@ -785,7 +779,7 @@ subscribe
 }
 .card-apps{
   padding-left: 150px;
-  padding-top: 200px;
+  padding-top: 100px;
   padding-bottom: 50px;
 }
 .cta-content {
@@ -799,6 +793,7 @@ subscribe
 .cta-content div img {
   height: 160px;
 }
+
 
 .cta-content h2 {
   font-size: 36px;
@@ -1329,13 +1324,7 @@ responsive
   }
 }
 
-@media (max-width: 450px) {
-  .feature-item .right-content a.text-button {
-    margin-left: 130px;
-  }
-  
- 
-}
+
 
 .link-googlemaps a{
   color: #fff!important;
@@ -1386,12 +1375,68 @@ FOTOS section */
     .gallery-item img {
       height: auto ;
       width: 100%;
-      resize: both;
       transition: transform 0.3s ease-in-out;
     }
-
+    
+    #player {
+      width: 540px;
+      height: 360px;
+  }
+    .video-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 200px;
+      gap: 40px;
+      height: fit-content;
+    }
+    .card-video video{
+        height: auto;
+        width: 400px;
+    }
     .gallery-item:hover img {
       transform: scale(1.1);
+    }
+
+    .activite-cim-title{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 60px;
+    }
+
+    .activite-cim {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      justify-content: center;
+      padding-bottom: 60px;
+      
+      
+    }
+
+    
+    
+    .activite-cim div:hover {
+      cursor: pointer;
+    }
+    
+    .activite-cim div img{
+      height: 400px;
+      width: 380px;
+      
+      
+    } 
+    .activite-cim div:hover img {
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
+    }
+    .activite-cim div h6 {
+      display: flex;
+      justify-content: center;
+      padding-top: 20px;
+      color: #014785;
+      font-size: larger;
     }
 
     .modal {
@@ -1653,4 +1698,53 @@ footer{
 .mini-menu.show {
   display: flex;
   
+}
+
+@media (max-width: 480px) {
+  .feature-item .right-content a.text-button {
+    margin-left: 130px;
+  }
+  .second-navbar {
+    flex-direction: column;
+    padding: 140px 0;
+    gap: 20px;
+  }
+  .notice-text h1 {
+    font-size: 1.8rem;
+  }
+  .activite-cim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }  
+  .footer-divs {
+    flex-direction: column;
+    padding: 0 25px;
+    align-items: center;
+  }
+  #img-appstore {
+    height: 140px;
+  }
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 30px;
+  }
+  
+}
+@media (max-width: 1200px) {
+  .presentazione-main{
+    margin: 110px 40px;
+  } 
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .video-section{ 
+    flex-direction: column;
+    padding: 100px 0px;
+  }
+ 
+
 }
