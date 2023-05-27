@@ -1517,7 +1517,9 @@ footer{
 
 
 .img-bg-italy {
+  height: 100%;
   background-image: url("../images/italybg.jpg");
+  background-size: cover;
 }
 
 .lapresidenza-title {
