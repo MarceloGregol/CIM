@@ -1379,11 +1379,13 @@ FOTOS section */
       position: relative;
       overflow: hidden;
       cursor: pointer;
+      width: 400px;
+      height: 400px 
     }
 
     .gallery-item img {
+      height: auto ;
       width: 100%;
-      height: auto;
       transition: transform 0.3s ease-in-out;
     }
 
