@@ -1386,6 +1386,7 @@ FOTOS section */
     .gallery-item img {
       height: auto ;
       width: 100%;
+      resize: both;
       transition: transform 0.3s ease-in-out;
     }
 
