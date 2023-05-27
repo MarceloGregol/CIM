@@ -1472,6 +1472,7 @@ footer{
   display: flex;
   justify-content: space-around;
   padding: 0 300px;
+  padding-top: 20px;
 
   color: #a1a1a1;
 }
@@ -1516,7 +1517,7 @@ footer{
 
 
 .img-bg-italy {
-  background-image: url("/training-studio-1.0.0/assets/images/fondo.jpg");
+  background-image: url("assets/images/fondo.jpg");
 }
 
 .lapresidenza-title {
