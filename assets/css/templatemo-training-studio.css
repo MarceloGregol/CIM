@@ -129,7 +129,7 @@ body {
   color: #fff;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
   html, body {
     overflow-x: hidden;
   }
@@ -484,7 +484,7 @@ header
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
   .header-area .main-nav .logo {
     color: #1e1e1e;
   }
@@ -528,15 +528,15 @@ header
   }
   .header-area .main-nav .nav li:last-child {
     width: 100%;
-    background-color: #ed563b;
+    background-color: #014785;
     color: #fff;
   }
   .header-area .main-nav .nav li:last-child a {
-    background-color: #ed563b!important;
+    background-color: #014785!important;
   }
   .header-area .main-nav .nav li:last-child a:hover,
   .header-area .main-nav .nav li:last-child:hover a {
-    background-color: #ed563b!important;
+    background-color: #014785!important;
     color: #fff!important;
   }
   .header-area.header-sticky .nav {
@@ -562,7 +562,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #ed563b!important;
+    color: #014785!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -599,7 +599,7 @@ header
 }
 
 
-@media (min-width: 767px) {
+@media (min-width: 1200px) {
   .header-area .main-nav .nav {
     display: flex !important;
   }
@@ -607,6 +607,7 @@ header
     display: flex;
     flex-direction: column;
     }
+
   
   
 }
@@ -1484,7 +1485,7 @@ FOTOS section */
 
     .gallery-item-delegazioni {
       position: relative;
-      overflow: hidden;
+      
       cursor: pointer;
       
     }
@@ -1732,6 +1733,7 @@ footer{
   }
   
 }
+
 @media (max-width: 1200px) {
   .presentazione-main{
     margin: 110px 40px;
@@ -1745,6 +1747,24 @@ footer{
     flex-direction: column;
     padding: 100px 0px;
   }
- 
-
+ .card-video video {
+    padding: 20px;
+    }
+  .gallery-delegazioni{
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 200px;
+    padding-right: 0;
+  }
 }
+  
+@media (max-width: 800px){
+  .gallery {
+      grid-template-columns: repeat(1, 1fr);
+      
+    }
+  .gallery-delegazioni  {
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 140px;
+  }
+  
+  }
