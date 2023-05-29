@@ -1498,6 +1498,7 @@ FOTOS section */
     }
     .gallery-item-delegazioni p {
       margin-left: 80px;
+      font-weight: 500;
     }
 
     .gallery-item-delegazioni img {
