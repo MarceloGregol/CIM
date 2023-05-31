@@ -1798,6 +1798,10 @@ footer{
   text-decoration: none;
   cursor: pointer;
 }
+
+#img-news:hover {
+  transform: scale(1.05);
+}
 /* // medias query// */
 @media (max-width: 480px) {
   .feature-item .right-content a.text-button {
