@@ -1877,9 +1877,13 @@ footer{
   #search-icon {
    display: none;
   }
-  
-}
-  
+  #organigrama .trainer-item img {
+    width: 80%;
+  }
+  .down-content {
+    align-items: start;
+  }
+}  
 @media (max-width: 800px){
   .gallery {
       grid-template-columns: repeat(1, 1fr);
