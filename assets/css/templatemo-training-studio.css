@@ -696,6 +696,7 @@ banner
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-left: 80px;
   
  
 }
@@ -783,6 +784,7 @@ subscribe
   padding-left: 150px;
   padding-top: 100px;
   padding-bottom: 50px;
+  text-align: center;
 }
 .cta-content {
   background-color: #ffffff;
@@ -1804,6 +1806,9 @@ footer{
 #img-news:hover {
   transform: scale(1.05);
 }
+
+
+
 /* // medias query// */
 @media (max-width: 480px) {
   .feature-item .right-content a.text-button {
@@ -1842,6 +1847,12 @@ footer{
   }
   .div-search a {
     margin-left: 100px ;
+  }
+  .card-confederacione{
+    padding-left: 0px;
+  }
+  .activite-cim-title h1 {
+    text-align: center;
   }
   
 }
@@ -1882,6 +1893,10 @@ footer{
   }
   .down-content {
     align-items: start;
+  }
+  .activite-cim{
+    align-items: center;
+    flex-direction: column;
   }
 }  
 @media (max-width: 800px){
