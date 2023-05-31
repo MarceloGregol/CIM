@@ -1378,6 +1378,7 @@ FOTOS section */
       height: auto ;
       width: 100%;
       transition: transform 0.3s ease-in-out;
+      
     }
     
     #player {
