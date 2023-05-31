@@ -1180,7 +1180,7 @@ preloader
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #232d39;
+    background-color: #042f67;
     display: -webkit-box;
     display: flex;
     -webkit-box-align: center;
@@ -1232,7 +1232,7 @@ preloader
     position: relative;
     width: 142px;
     height: 40px;
-    background: #232d39;
+    background: #042f67;
 }
 
 .preloader-inner .dot {
