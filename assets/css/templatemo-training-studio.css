@@ -1394,15 +1394,16 @@ FOTOS section */
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 200px;
-      gap: 40px;
+      padding: 200px 0;
+      gap: 80px;
       height: fit-content;
+      flex-wrap: wrap;
     }
     .card-video{
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+      
       gap: 10px;
     }
     .card-video video{
