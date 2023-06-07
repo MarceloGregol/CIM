@@ -1821,6 +1821,10 @@ footer{
   justify-content: center;
   align-items: center;
 }
+.video-item iframe{
+  width: 400px;
+  height: 206px;
+}
 
 
 /* // medias query// */
@@ -1863,7 +1867,7 @@ footer{
   .div-search a {
     margin-left: 100px ;
   }
-  .card-confederacione{
+  .card-confederacione{ 
     padding-left: 0px;
   }
   .activite-cim-title h1 {
