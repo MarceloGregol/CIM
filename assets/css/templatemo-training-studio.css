@@ -1396,7 +1396,7 @@ FOTOS section */
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 100px 0;
+      padding: 100px 100px;
       gap: 80px;
       height: fit-content;
       flex-wrap: wrap;
@@ -1598,6 +1598,9 @@ footer{
   color: white;
   gap: 40px;
 }
+.lapresidenza-title h2 {
+  padding-left: 20px;
+}
 
 .section-organigrama1{ 
  
@@ -1618,7 +1621,10 @@ footer{
   width: auto;
   border-radius: 10px;
 }
-
+.card-organigramma h4 {
+  font-size: 16px;
+  padding: 6px 0;
+}
 .section-organigrama2{ 
   
   background-color: #014785;
@@ -1629,6 +1635,7 @@ footer{
   gap: 60px;
   padding-bottom: 40px;
   padding-left: 80px;
+  flex-wrap: wrap;
 }
 
 .card-organigramma {
@@ -1836,6 +1843,9 @@ footer{
   display: flex;
   flex-wrap: wrap;
   padding: 40px 200px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 /* // medias query// */
