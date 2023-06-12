@@ -1367,7 +1367,7 @@ FOTOS section */
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 100px 100px;
+      padding: 100px 134px;
       gap: 80px;
       height: fit-content;
       flex-wrap: wrap;
@@ -1384,8 +1384,8 @@ FOTOS section */
     }
 
     .gallery-item img {
-      height: auto ;
-      width: 100%;
+      height: 300px ;
+      width: auto;
       transition: transform 0.3s ease-in-out;
       padding-bottom: 10px;
       
