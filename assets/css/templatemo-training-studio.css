@@ -1919,10 +1919,7 @@ footer{
     max-width: 90%;
     max-height: 100%;
   }
-  .gallery-item {
-    
-    /* height: 0px; */
-  }
+  
 }
 
 @media (max-width: 1200px) {
