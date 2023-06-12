@@ -1506,12 +1506,15 @@ FOTOS section */
 
     .gallery-item-delegazioni {
       position: relative;
-      
       cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       
     }
     .gallery-item-delegazioni p {
-      margin-left: 80px;
+      
       font-weight: 500;
     }
 
