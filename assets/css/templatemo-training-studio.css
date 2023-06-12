@@ -664,6 +664,10 @@ banner
   left: 50%;
   top: 60%;
   transform: translate(-50%,-50%);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-banner .caption h6 {
