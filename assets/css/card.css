@@ -3,7 +3,8 @@
     width: 300px; /* ajuste o tamanho conforme necessário */
     height: 200px; /* ajuste o tamanho conforme necessário */
     perspective: 1000px; /* profundidade da perspectiva */
-    margin-right: 100px;
+    margin-right: 47px;
+
   }
   
   .card-inner {
