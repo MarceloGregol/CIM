@@ -1862,6 +1862,16 @@ footer{
     color: #343434;
     font-weight: 500;
 }
+.card-name {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  align-items: center;
+  
+}
+.card-name span {
+  font-weight: 500;
+}
 /* // medias query// */
 @media (max-width: 480px) {
   .feature-item .right-content a.text-button {
