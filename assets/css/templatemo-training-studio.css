@@ -1903,8 +1903,9 @@ footer{
   }
   .second-navbar {
     flex-direction: column;
-    padding: 140px 0;
+    padding: 140px 30px;
     gap: 20px;
+    align-items: flex-start;
   }
   .notice-text h1 {
     font-size: 1.8rem;
