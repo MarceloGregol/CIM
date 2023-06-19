@@ -1393,7 +1393,7 @@ FOTOS section */
       padding-bottom: 10px;
       
     }
-    
+  
 
     #player {
       width: 540px;
@@ -1807,9 +1807,10 @@ footer{
 }
 .modal-content-search button {
   background-color: #014785;
-  padding: 4px 10px;
-  border-radius: 20px;
+  border-radius: 10px;
   border: none;
+  padding: 4px 10px;
+  color: white;
 }
 
 
@@ -1871,6 +1872,29 @@ footer{
 }
 .card-name span {
   font-weight: 500;
+}
+
+#searchResults a {
+  color: white;
+  background-color: #014785;
+  padding: 10px;
+  border-radius: 4px;
+  
+}
+#searchResults h6 {
+  padding: 20px 0;
+}
+#sarch-icon-btn {
+  
+  width: 20px;
+}
+#searchResults {
+  height: fit-content;
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+ 
+ 
 }
 /* // medias query// */
 @media (max-width: 480px) {
