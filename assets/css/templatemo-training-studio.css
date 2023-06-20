@@ -680,11 +680,10 @@ banner
   
 }
 
-.main-banner .caption h2 {
+.main-banner .caption h1 {
   margin-top: 30px;
   margin-bottom: 25px;
   font-size: 56px;
- 
   font-weight: 800;
   color: #fff;
   letter-spacing: 1px;
@@ -1287,7 +1286,7 @@ responsive
 
 @media (max-width: 992px) {
 
-  .main-banner .caption h2 {
+  .main-banner .caption h1 {
     font-size: 32px;
   }
   #features {
@@ -1964,6 +1963,7 @@ footer{
   .esecutivo-text {
     padding: 50px 75px
   }
+  
 }
 
 @media (max-width: 1200px) {
@@ -2021,5 +2021,4 @@ footer{
   
   
   }
-
 
