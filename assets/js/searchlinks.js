@@ -48,9 +48,8 @@ function search() {
     
   ];
 
-  // Variável para controlar se algum resultado foi encontrado
-  var foundResults = false;
-
+  
+ 
   // Loop pelas URLs das páginas
   pageURLs.forEach(function(url) {
     var xhttp = new XMLHttpRequest();
@@ -74,6 +73,9 @@ function search() {
     xhttp.open('GET', url.url, true);
     xhttp.send();
   });
+
+  // Variável para controlar se algum resultado foi encontrado
+  var foundResults = false;
 
   if (foundResults == false) {
     var resultItem = document.createElement('li');
