@@ -5,6 +5,11 @@ async function search() {
 
   searchResults.innerHTML = ''; // Limpar resultados anteriores
 
+  // Adicionar mensagem de carregamento
+  var loadingMessage = document.createElement('p');
+  loadingMessage.textContent = 'Aspettare...';
+  searchResults.appendChild(loadingMessage);
+
   // URLs das páginas que você deseja pesquisar
   var pageURLs = [
     {
@@ -76,6 +81,9 @@ async function search() {
   for (var i = 0; i < pageURLs.length; i++) {
     await makeRequest(pageURLs[i]);
   }
+
+  // Remover a mensagem de carregamento
+  searchResults.removeChild(loadingMessage);
 
   if (foundResults.length > 0) {
     // Resultados encontrados
