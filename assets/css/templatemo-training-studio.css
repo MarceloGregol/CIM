@@ -528,15 +528,15 @@ header
   }
   .header-area .main-nav .nav li:last-child {
     width: 100%;
-    background-color: #014785;
+    background-color: #f7f7f7;
     color: #fff;
   }
   .header-area .main-nav .nav li:last-child a {
-    background-color: #014785!important;
+    background-color: #f7f7f7!important;
   }
   .header-area .main-nav .nav li:last-child a:hover,
   .header-area .main-nav .nav li:last-child:hover a {
-    background-color: #014785!important;
+    background-color: #f7f7f7!important;
     color: #fff!important;
   }
   .header-area.header-sticky .nav {
@@ -1787,7 +1787,7 @@ footer{
 .modal-search {
   display: none;
   position: fixed;
-  z-index: 1;
+  z-index: 999;
   left: 0;
   top: 0;
   width: 100%;
@@ -1997,7 +1997,8 @@ footer{
     margin-left: 100px ;
   }
   #search-icon {
-   display: none;
+    background-color: white;
+    margin-bottom: 10px;
   }
   #organigrama .trainer-item img {
     width: 80%;
@@ -2011,6 +2012,16 @@ footer{
   }
   .card-video {
     align-items: center;
+  }
+  .modal-content-search {
+    width: 100%;
+    margin: 20% auto;
+    min-height: 70vh;
+    padding-top: 30px;
+
+  }
+  #searchInput {
+    width: 60%;
   }
 }  
 @media (max-width: 800px){

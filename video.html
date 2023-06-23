@@ -62,12 +62,24 @@ https://templatemo.com/tm-548-training-studio
                           <li class="scroll-to-section"><a href="fotos.html">Foto</a></li>
                           <li class="scroll-to-section"><a href="video.html">Video</a></li>
                           <li class="scroll-to-section" id="contactId"><a href="contatti.html" class="contact-bg">Contatti</a></li>
+                          <li class="scroll-to-section"><img onclick="openModal()" src="assets/images/icons/icon-search.png" id="search-icon"></img></li>
                         </ul>
                         
                         
                         <a class='menu-trigger'>
                             <span>Menu</span>
                         </a>
+
+                        <div id="myModal" class="modal-search">
+                          <div class="modal-content-search">
+                            
+                            <input type="text" id="searchInput" placeholder="Cerca...">
+                            <button onclick="search()">Cerca</button>
+                            <span class="close-search" onclick="closeModal()">&times;</span>
+                            <ul id="searchResults"></ul>
+                            
+                          </div>
+                      </div>
                        
                         <!-- ***** Menu End ***** -->
                     </nav>
@@ -209,5 +221,7 @@ https://templatemo.com/tm-548-training-studio
     <script src="https://www.youtube.com/iframe_api"></script>
     <script src="assets/js/video.js"></script>
     <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="assets/js/search.js"></script>
+    <script src="assets/js/searchlinks.js"></script>
   </body>
 </html>

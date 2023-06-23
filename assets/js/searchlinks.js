@@ -8,15 +8,44 @@ function search() {
 
   // URLs das páginas que você deseja pesquisar
   var pageURLs = [
-    'index.html',
-    'organigrama.html',
-    'sederegionali.html',
-    'contatti.html',
-    'delegazioni.html',
-    'fotos.html',
-    'lostatuto.html',
-    'video.html',
-    'presentazione.html'
+    {
+      url: 'index.html',
+      pagename: 'CIM'
+    },
+    {
+      url: 'organigrama.html',
+      pagename: 'Organigrama'
+    },
+    {
+      url: 'sederegionali.html',
+      pagename: 'Sede Regionali'
+    },
+    {
+      url: 'contatti.html',
+      pagename: 'Contatti'
+    },
+    {
+      url: 'delegazioni.html',
+      pagename: 'Delegazioni'
+
+    },
+    {
+      url:'fotos.html',
+      pagename: 'Foto'
+    },
+    { 
+      url: 'lostatuto.html',
+      pagename: 'Lo Statuto'
+    },
+    { 
+      url: 'video.html',
+      pagename: 'Video'
+    },
+    {
+      url: 'presentazione.html',
+      pagename: 'Presentazione'
+    }
+    
   ];
 
   // Variável para controlar se algum resultado foi encontrado
@@ -33,8 +62,8 @@ function search() {
         if (pageContent.includes(filter)) {
           var resultItem = document.createElement('li');
           var link = document.createElement('a');
-          link.href = url;
-          link.textContent = url.substring(0, url.lastIndexOf('.html')); // Remover a extensão .html
+          link.href = url.url;
+          link.textContent = url.pagename // Remover a extensão .html
           resultItem.appendChild(link);
           searchResults.appendChild(resultItem);
           foundResults = true; // Marcar que pelo menos um resultado foi encontrado
@@ -42,7 +71,7 @@ function search() {
         } 
       }
     };
-    xhttp.open('GET', url, true);
+    xhttp.open('GET', url.url, true);
     xhttp.send();
   });
 
