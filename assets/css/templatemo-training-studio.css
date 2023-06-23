@@ -1892,6 +1892,7 @@ footer{
  display: flex;
  flex-direction: column;
  gap: 30px;
+ padding-top: 20px;
  
  
 }
