@@ -1897,6 +1897,13 @@ footer{
  
  
 }
+.foto-presidents {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  padding-top: 50px;
+}
 /* // medias query// */
 @media (max-width: 480px) {
   .feature-item .right-content a.text-button {
@@ -1965,6 +1972,11 @@ footer{
   .esecutivo-text {
     padding: 50px 75px
   }
+  .foto-presidents {
+    flex-direction: column;
+    padding-left: 20px;
+    gap: 20px;
+  }
   
 }
 
@@ -2025,6 +2037,7 @@ footer{
   #searchInput {
     width: 60%;
   }
+  
 }  
 @media (max-width: 800px){
   .gallery {
