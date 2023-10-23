@@ -1,14 +1,13 @@
 #body-tesicongresuali {
-    padding: 50px 200px;
+    padding: 50px 140px;
     min-width: 400px;
     font-family: 'arial' !important ;
     font-weight: 400 !important ;
 }
 
-@media (max-width: 756px) {
+@media (max-width: 600px) {
     #body-tesicongresuali {
         padding: 50px 20px;
     }
     
-   
   }
