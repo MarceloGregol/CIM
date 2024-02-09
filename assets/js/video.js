@@ -1,4 +1,4 @@
-var videoIds = ['YiFA5AJeuG8', 'EAzpKNRQnKs', 'eAPHzoIaukk', 'iFlLR9uXNX0'];
+var videoIds = ['qMZRnC0IpZQ', 'YiFA5AJeuG8', 'EAzpKNRQnKs', 'eAPHzoIaukk', 'iFlLR9uXNX0'];
 
 // Variável global para armazenar os players do YouTube
 var players = [];
