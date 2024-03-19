@@ -22,19 +22,3 @@ function onPlayerReady(event) {
     
 }
 
-
-//main banner 
-
-// // Aguarde o carregamento completo da página
-// window.addEventListener('load', function() {
-//     var video = document.getElementById('bg-video');
-//     var botaoPlay = document.getElementById('botao-play');
-
-//     if (video && botaoPlay) {
-//       botaoPlay.addEventListener('click', function() {
-//         video.play();
-//       });
-
-//       botaoPlay.click();
-//     }
-//   });
