@@ -1021,6 +1021,43 @@ schedule
   transition: all 350ms;
 }
 
+.tesicongresuali{
+  margin: 150px 300px 90px 300px;
+}
+.tesicongresuali p{
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+
+.tesicongresuali  h1{
+  font-size: 30px;
+  line-height: 45px;
+}
+.tesicongresuali  h4{
+  font-size: 22px;
+  line-height: 30px;
+}
+.tesicongresuali  h2{
+  font-size: 22px;
+  padding: 60px 0 40px 0;
+  }
+
+.indice{
+  margin: 40px 0;
+}
+.indice li{
+  font-size: 18px;
+  color: #7a7a7a;
+  line-height: 30px;
+  font-weight: 3000;
+}
+
+.list li{
+  font-size: 16px;
+  color: #7a7a7a;
+  line-height: 30px;
+}
+
 .presentazione-main {
   margin: 150px 400px 90px 400px;
   
