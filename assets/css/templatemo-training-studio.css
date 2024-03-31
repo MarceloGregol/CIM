@@ -1026,19 +1026,19 @@ schedule
 }
 .tesicongresuali p{
   padding-bottom: 20px;
-  font-size: 16px;
+  font-size: 1.0em;
 }
 
 .tesicongresuali  h1{
-  font-size: 30px;
+  font-size: 1.6em;
   line-height: 45px;
 }
 .tesicongresuali  h4{
-  font-size: 22px;
+  font-size: 1.2em;
   line-height: 30px;
 }
 .tesicongresuali  h2{
-  font-size: 22px;
+  font-size: 1.2px;
   padding: 60px 0 40px 0;
   }
 
@@ -1046,17 +1046,26 @@ schedule
   margin: 40px 0;
 }
 .indice li{
-  font-size: 18px;
+  font-size: 1.2em;
   color: #7a7a7a;
   line-height: 30px;
   font-weight: 3000;
 }
 
 .list li{
-  font-size: 16px;
+  font-size: 1.0em;
   color: #7a7a7a;
   line-height: 30px;
 }
+
+
+@media screen and (max-width: 400px) {
+  .tesicongresuali{
+    margin: 150px 20px 90px 20px;
+  }
+}
+
+
 
 .presentazione-main {
   margin: 150px 400px 90px 400px;
