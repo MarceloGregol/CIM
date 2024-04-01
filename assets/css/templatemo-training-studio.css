@@ -1027,15 +1027,16 @@ schedule
 .tesicongresuali p{
   padding-bottom: 20px;
   font-size: 1.0em;
+  line-height: 1.6em;
 }
 
 .tesicongresuali  h1{
   font-size: 1.6em;
-  line-height: 45px;
+  line-height: 2m;
 }
 .tesicongresuali  h4{
   font-size: 1.2em;
-  line-height: 30px;
+  line-height: 2em;
 }
 .tesicongresuali  h2{
   font-size: 1.2em;
@@ -1048,14 +1049,14 @@ schedule
 .indice li{
   font-size: 1.2em;
   color: #7a7a7a;
-  line-height: 30px;
+  line-height: 1.8em;
   font-weight: 3000;
 }
 
 .list li{
   font-size: 1.0em;
   color: #7a7a7a;
-  line-height: 30px;
+  line-height: 1.8em;
 }
 
 
